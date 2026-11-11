@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "updatedAt": "2026-11-12T00:00:00+09:00",
+  "seasons": [
+    {
+      "id": "2027",
+      "label": "令和9年用",
+      "salesStart": "2026-11-02",
+      "drawDate": "2027-01-25",
+      "exchangeStart": "2027-01-26",
+      "exchangeEnd": "2027-07-26",
+      "announced": false,
+      "officialURL": "https://www.post.japanpost.jp/newsrelease/pressrelease/282881137.html",
+      "prizes": [
+        { "rank": 1, "title": "1等", "name": "現金30万円", "matchDigits": 6, "count": 1, "numbers": [], "requiresID": true },
+        { "rank": 2, "title": "2等", "name": "賞品カタログギフト", "matchDigits": 5, "count": 1, "numbers": [], "requiresID": true },
+        { "rank": 3, "title": "3等", "name": "お年玉切手シート", "matchDigits": 2, "count": 3, "numbers": [], "requiresID": false }
+      ]
+    }
+  ]
+}

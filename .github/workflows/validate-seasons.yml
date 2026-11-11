@@ -1,0 +1,14 @@
+name: 当選番号データの検証
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: seasons.json を検証
+        run: python3 scripts/validate_seasons.py docs/v1/seasons.json
